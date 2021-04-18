@@ -18,12 +18,12 @@ public class SnakesAndLadder2 {
         		switch(check) {
         		    case Snakes_come :
         			    position1 = position1 - dice_roll;
-    					    break;
-        			case Ladder_come:
-        				position1 = position1 + dice_roll;
-						    i = i - 1;
-    					  break;
-    				case No_play:
+    				    break;
+        		    case Ladder_come:
+        			    position1 = position1 + dice_roll;
+				    i = i - 1;
+    				    break;
+    			    case No_play:
     				    position1 = position1;
     				    break;
         		}
@@ -47,12 +47,12 @@ public class SnakesAndLadder2 {
     			switch(check) {
         		    case Snakes_come :
         			    position2 = position2 - dice_roll;
-    					    break;
-        			case Ladder_come:
-        				position2 = position2 + dice_roll;
-						    i = i - 1;
-    					  break;
-    				case No_play :
+    				    break;
+        		    case Ladder_come:
+        			     position2 = position2 + dice_roll;
+				     i = i - 1;
+    				     break;
+    			    case No_play :
     				    position2 = position2;
     				    break;
         		}
