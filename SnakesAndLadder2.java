@@ -37,6 +37,7 @@ public class SnakesAndLadder2 {
     			else if(position1<0){
     				position1 = 0;
     			}
+			System.out.println("Person1 position : " + position1);
     			
 		    }
 		    else{
@@ -66,18 +67,19 @@ public class SnakesAndLadder2 {
     			else if(position2<0){
     				position2 = 0;
     			}
-    			
+    			System.out.println("Person2 Position : " + position2);
 		    
 		    }
 		    i = i + 1;
 		}
 		if (position1 == 100){
 		    System.out.println("Person1 wins");
+		    System.out.println("Person1 rolls the dice : " + count1);
 		    
 		}
 		else{
 		    System.out.println("Person2 wins");
-		    
+		     System.out.println("Person2 rolls the dice : " + count2);
 		}
 	}
 }
