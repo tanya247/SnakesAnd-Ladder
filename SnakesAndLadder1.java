@@ -10,7 +10,7 @@ public class SnakesAndLadder1 {
 		while(position < 100) {
 			count = count + 1;
 			int dice_roll = (int)Math.floor(Math.random()*10) % 7;
-			int check = (int)Math.floor(Math.random()*10) % 3;
+			int check = (int)Math.floor(Math.random()*10) % 4;
 			
 			switch(check) {
     			case Snakes_come :
