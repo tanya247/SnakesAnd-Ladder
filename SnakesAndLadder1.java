@@ -23,7 +23,7 @@ public class SnakesAndLadder1 {
 					position = position ;
 					break;
     			}
-    		if(position > 100) {
+    		        if(position > 100) {
 			    position = position - dice_roll;
 			}
 			else if (position == 100){
